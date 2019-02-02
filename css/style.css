@@ -1,0 +1,225 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+}
+
+.navbar1 {
+	position: sticky;
+	top: 0;
+	height: auto;
+	background-color: rgb(237, 218, 21);
+}
+
+.dropdown1 i{
+	font-size: 5rem;
+	color: white;
+	padding: 1rem;
+	margin: 1rem;
+	border: 1px solid black;
+}
+
+.navbar2 {
+	background-color: white;
+}
+
+.navbar2 i{
+	display: block;
+	font-size: 5rem;
+	color: black;
+	padding: 1rem;
+	margin: 1rem;
+	border: 1px solid black;
+}
+
+.logo {
+	position: relative;
+	left: 450px;
+	top: 20px;
+	height: 100px;
+	width: auto;
+}
+
+.car {
+	width: 100%;
+}
+
+section {
+	padding: 2rem;
+}
+
+section p {
+	border-top: solid 1px;
+	padding-top: 1.5rem;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+h2 i{
+	margin-right: 3rem;
+}
+
+.dropdown1 {
+	background-color: rgb(237, 218, 21);
+	border: none;
+	outline: none;
+	display: inline-block;
+}
+
+.dropdown2 {
+	background-color: white;
+	border: none;
+	outline: none;
+	display: inline-block;
+}
+
+.dropdown1-content {
+  display: none;
+  margin: 0;
+ }
+
+.dropdown2-content {
+  display: none;
+  margin: 0 auto;
+}
+
+.show {
+	display: block;
+}
+
+.dropdown2-content ul{
+	z-index: -1;
+	font-size: 3rem;
+	height: auto;
+	width: 100%;
+	background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown1-content ul{
+	z-index: -1;
+	font-size: 2rem;
+	height: auto;
+	width: 100%;
+ 	background-color: rgb(237, 218, 21);
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown1-content ul i{
+	margin-right: 2rem;
+}
+
+.gratisproefles {
+	background-color: rgb(237, 218, 21);
+	height: 100px;
+}
+
+.gratisproefles h2 {
+	text-align: center;
+	font-size: 3rem;
+	position: relative;
+	top: 1rem;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+li a{
+	  text-decoration: none;
+	  color: black;
+}
+
+footer p {
+	text-align: center;
+	height: 1vh;
+}
+
+@media (min-width: 1024px) {
+
+	.navbar1 i {
+		display: none;
+	}
+
+	.navbar2 i {
+		display: none;
+	}
+
+	.logo {
+		height: 80px;
+		left: 50px;
+		top: 10px;
+		width: auto;
+	}
+
+	.dropdown2-content{
+		display: inline;
+	}
+
+	.dropdown2-content ul{
+		list-style-type: none;
+	    overflow: hidden;
+	    z-index: 1;
+		position: relative;
+		bottom: 42px;
+		left: 360px;
+		font-size: 14px;
+		width: 55%;
+	}
+
+	.dropdown2-content li{
+		float: left;
+		margin: 0 7px;
+		}
+
+	.dropdown1-content{
+		display: inline;
+	}
+
+	.dropdown1-content ul{
+		list-style-type: none;
+	    overflow: hidden;
+	    z-index: 1;
+		position: relative;
+		font-size: 14px;
+		bottom: 1vh;
+		width: 50%;
+		left: 80vh;
+	}
+
+	.dropdown1-content li{
+		float: left;
+		margin: 0 7px;
+		}
+
+	.dropdown1-content ul i {
+		display: inline;
+		margin-right: 0.5rem;
+	}
+
+	.navbar1 {
+		position: initial;
+	}
+
+	.grid {
+		grid-template-columns: auto auto auto;
+	}
+
+	.gratisproefles {
+		height: 10vh;
+	}
+
+	.gratisproefles h2{
+		font-size: 2rem;
+		top: 0.5rem;
+	}
+}	
